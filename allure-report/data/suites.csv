@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri May 03 15:37:15 EEST 2024","Fri May 03 15:37:27 EEST 2024","11879","chromium","","Login functionality","","","Check that with EMPTY credentials I could NOT login",""
+"passed","Fri May 03 15:37:15 EEST 2024","Fri May 03 15:37:27 EEST 2024","12461","chromium","","Login functionality","","","Check that with VALID credentials I could login",""
+"passed","Fri May 03 15:37:46 EEST 2024","Fri May 03 15:37:55 EEST 2024","8899","chromium","","Login functionality","","","Check that with INVALID credentials I could NOT login",""

@@ -1,0 +1,24 @@
+{
+  "name": "task-one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-local-chrome": "npx playwright test tests/login.spec.ts --project=chromium --config=playwright.config.ts --workers=6",
+    "test:reporter": "allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.37.1",
+    "@types/node": "^20.6.3",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "allure-commandline": "^2.24.0",
+    "allure-playwright": "^2.8.1",
+    "dotenv": "^16.3.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}
