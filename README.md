@@ -11,16 +11,19 @@ This package is for automating tests using Playwright Test. It includes test scr
 
 ```bash
 npm install
+```
 
 ## Usage
 
 ```bash
 npm run test-local-chrome
+```
 
 ## Generate test Report
 
 ```bash
 npm run test:reporter
+```
 
 ## Dependencies
 
