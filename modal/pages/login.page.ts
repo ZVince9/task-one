@@ -6,19 +6,16 @@ export class PageLogin extends PageBase {
     return this.page.locator("button.btAccess");
   }
 
-  //definetely need to use attributes
   public get getPasswordInput(): Locator {
     return this.page.getByLabel("Contraseña");
   }
 
-  //definetely need to use attributes
   public get getUsernameInput(): Locator {
     return this.page.getByRole("textbox", {
       name: "Usuario / Correo electrónico",
     });
   }
 
-  //definetely need to use attributes
   public get getUsernameLogginInValue(): Locator {
     return this.page.getByRole("button", { name: "testproes2405" });
   }

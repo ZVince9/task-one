@@ -15,11 +15,11 @@ export class PageBase {
     await this.page.goto(url);
   }
 
-  async checkMainPageUrl(url: any, value: RegExp) {
-    expect(url).toMatch(value);
-  }
-
   async confirmCookies() {
-    await this.page.getByText("Confirmar la selección").click();
+    try {
+      await this.page.getByText("Confirmar la selección").click();
+    } catch {
+      console.log("No Cookie bar detected");
+    }
   }
 }
