@@ -9,17 +9,20 @@ This package is for automating tests using Playwright Test. It includes test scr
 1. Clone the repository.
 2. Install dependencies using npm:
 
+```bash
 npm install
 
 ## Usage
 
+```bash
 npm run test-local-chrome
 
 ## Generate test Report
 
+```bash
 npm run test:reporter
 
-Dependencies
+## Dependencies
 
 - @playwright/test: Playwright Test framework for automating browser tests.
 - @types/node: TypeScript type definitions for Node.js.
