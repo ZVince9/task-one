@@ -1,6 +1,5 @@
 import { Page, expect } from "@playwright/test";
 
-// Define the MainPage class
 export class PageBase {
   protected page: Page;
 
